@@ -2,14 +2,30 @@ body {
 	background-color: black;
 	font-family: Eurostile;
 	font-weight: bold;
+	margin-left: 2px;
 }
 
 img {
-	width: 450px;
+	width: 250px;
 	height: auto;
+	border: 5px solid #eb4672;
+	margin: 5px;
 }
 
 .btn-default {
+	width: 150px;
 	font-size: 18px;
-	margin: 2px;
+	margin: 3px;
+}
+
+#logo{
+	width: 450px;
+	height: auto;
+	border: none;
+}
+
+.btn-group{
+	border: 5px dashed #18a2a4;
+	width: 360px;
+	margin: 20px;
 }

@@ -55,7 +55,7 @@ function displayGifs() {
     })
     .done(function(response) {
     	// empties div
-        $("gifs-appear-here").empty(); 
+        $("#gifs-appear-here").empty(); 
         var results = response.data; //shows results of gifs
         //for when there's no gif from the added button
         if (results == ""){
